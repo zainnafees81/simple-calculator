@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div class="main">
+        <form class="ff">
+            <input type="text" value="CALCULATOR" class="appname">
+            <input type="text" name="answer" id="result" class="answer">
+            
+
+            <div class="btns">
+                <input type="button" class="oper" value="C" onclick="clearBtn()"  id="">
+                <input type="button" class="oper" value="CE" onclick="backSpace()"  id="">
+                <input type="button" class="oper" value="/" onclick="getNumber('/')" id="">
+                <!-- <input type="button" class="oper" value=""  onclick="square('')" id="">     -->
+                
+            
+
+            </div>
+
+            <div class="btns">
+                <input type="button" class="main_number" value="9" onclick="getNumber('9')" id="">
+                <input type="button" class="main_number" value="8" onclick="getNumber('8')" id="">
+                <input type="button" class="main_number" value="7" onclick="getNumber('7')" id="">
+                <input type="button" class="oper"        value="X" onclick="getNumber('*')" id="">
+            </div>
+            <div class="btns">
+                <input type="button" class="main_number" value="6" onclick="getNumber('6')" id="">
+                <input type="button" class="main_number" value="5" onclick="getNumber('5')" id="">
+                <input type="button" class="main_number" value="4" onclick="getNumber('4')" id="">
+                <input type="button" class="oper"        value="-" onclick="getNumber('-')" id="">
+            </div>
+            <div class="btns">
+                <input type="button" class="main_number" value="3" onclick="getNumber('3')" id="">
+                <input type="button" class="main_number" value="2" onclick="getNumber('2')" id="">
+                <input type="button" class="main_number" value="1" onclick="getNumber('1')" id="">
+                <input type="button" class="oper"        value="+" onclick="getNumber('+')" id="">
+            </div>
+            <div class="btns">
+                <input type="button" class="oper" value="%" onclick="getNumber('%')" id="">
+                <input type="button" class="main_number" value="0" onclick="getNumber('0')" id="">
+                <input type="button" class="oper" value="." onclick="getNumber('.')" id="">
+                <input type="button" class="oper" value="=" onclick="getREsult()"  id="">
+            </div>
+
+
+        </form>
+    </div>
+
+
+
+
+
+
+    
+
+    <script src="app.js"></script>
+</body>
+</html>

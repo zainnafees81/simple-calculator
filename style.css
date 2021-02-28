@@ -1,0 +1,58 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-image: url(images/images\ \(1\).jpg);
+    /* background-size: 100% 100%; */
+    background-color: white!important;
+
+}
+.main{
+    height:100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ff{
+    width: 400px; height: 520px;
+    box-shadow: 0  0 10px 1px gray;
+}
+.appname{
+    width: 389px;
+    padding: 2px 0 2px 10px;
+    font-size: 0.8rem;
+    background-color: #303030;
+    color: white;
+    border: none;
+    outline: none;
+    font-family: sans-serif;
+}
+.answer{
+    width: 395px;
+    height: 100px;
+    background-color: #303030;
+    font-size: 2rem;
+    color: white;
+    text-align: right;
+    border: none;
+    outline: none;
+}
+.btns{
+    width: inherit;
+    height: 90px;
+    display: flex;
+    justify-content: center;
+}
+
+input{ flex: 1; font-size: 1.4rem; color: white; border: 1px solid #504f4f; outline: none;}
+
+.main_number{
+    background-color: #101011;
+    color: white;
+}
+.oper{
+    background-color: #303030;
+}
+input:hover {
+background-color: #474747;
+}
